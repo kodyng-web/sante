@@ -1390,7 +1390,7 @@ a[href^="https://maps.google.com/maps"] {
   background: none !important;
 }
 
-#google-container {
+#google-container google-container-map {
   position: relative;
   width: 100%;
   height: 200px;
@@ -1398,13 +1398,13 @@ a[href^="https://maps.google.com/maps"] {
 }
 
 @media only screen and (min-width: 768px) {
-  #google-container {
+  #google-container google-container-map {
       height: 300px;
   }
 }
 
 @media only screen and (min-width: 1170px) {
-  #google-container {
+  #google-container google-container-map {
       height: 600px;
   }
 }
@@ -2163,7 +2163,7 @@ footer h6 {
   }
   .reservation .upper .info {
   }
-  #google-container {
+  #google-container google-container-map {
       height: 75vh;
   }
   #cd-zoom-in,
